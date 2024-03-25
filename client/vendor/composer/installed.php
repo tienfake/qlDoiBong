@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'clients/tien',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'e2e8e6cab682b0c1b2b7ab7b3110b845f534f8a2',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'clients/tien' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e2e8e6cab682b0c1b2b7ab7b3110b845f534f8a2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'eftec/bladeone' => array(
+            'pretty_version' => '4.12',
+            'version' => '4.12.0.0',
+            'reference' => 'a38c40e173d978a1249da446882d1bda52612277',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../eftec/bladeone',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phroute/phroute' => array(
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
+            'reference' => 'c1893b885966a0c7b50b9239dd867fda7a312dfa',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phroute/phroute',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
